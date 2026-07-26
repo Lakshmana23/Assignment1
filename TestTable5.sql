@@ -23,7 +23,7 @@ SET Price=80
 WHERE FruitId=1;
 
 Select * From first.Fruits;
-
+----TCL using Savepoint-----
 Begin Transaction
 
 UPDATE first.Fruits
