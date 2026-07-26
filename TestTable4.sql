@@ -20,6 +20,8 @@ VALUES(15,'Lavanya',25,44000);
 
 Select * From first.Employee
 
+--------Update a data in table-------
+    
 UPDATE first.Employee 
 SET salary=48000
  WHERE EmployeeID=11;
