@@ -1,0 +1,16 @@
+DDL vs DML
+
+DDL-Data Definition Language.
+It is used to defined the structure of the table in database. We can't change the data of the table. 
+Ex: Create, Alter, Drop and Truncate
+
+DML- Data Manipulation Language
+It is used to change/update the data inside the table. It wont change the structure of a table.
+Ex: Insert, update, delete
+
+Truncate 
+In a table all the row data are easily removed by using truncate. It's fast processing. It wont change the structure of the column and It's comes under DDL. Rollback method doesn't work without use begin transaction. It wont stores the data and reference point  in the backend.
+
+Delete
+It changes the actual data in a table. By using delete keyword we can remove the row one by one. It is removed only required rows from table. It will stores the data and reference point  in the backend.
+
