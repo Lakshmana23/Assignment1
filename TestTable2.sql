@@ -17,4 +17,5 @@ Values
 
 Select * from first.Cars Where CarId=2;
 
+------ Basic DQL operation-----
 SELECT * FROM first.cars ORDER BY CarPrice DESC;
